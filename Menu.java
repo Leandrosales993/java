@@ -9,23 +9,23 @@ public class Menu {
 		Scanner teclado = new Scanner(System.in);
 		System.out.println("1. Windows");
 		System.out.println("2. Linux");
-		System.out.println("Digite a opÁ„o desejada: ");
+		System.out.println("Digite a op√ß√£o desejada: ");
 		opcao = teclado.nextInt();
 		switch (opcao) {
 		case 1:
-			windows();//executar o mÈtodo
+			windows();//executar o m√©todo
 			break;
 		case 2:
 			linux();
 			break;
-		default: //caso nenhuma opÁ„o selecionadat
-			System.out.println("OpÁ„o inv·lida");
+		default: //caso nenhuma op√ß√£o selecionadat
+			System.out.println("Op√ß√£o inv√°lida");
 			break;
 		}
 
 	}
 	
-	//Criando um mÈtodo
+	//Criando um m√©todo
 	static void windows() {
 		System.out.println("Carregando o Windows......");
 	}
